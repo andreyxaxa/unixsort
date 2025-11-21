@@ -23,7 +23,7 @@
 
 Тесты - `go test -v ./...`
 
-Примеры запусков: (из корневой директории)
+Примеры запусков: (из корневой директории "unixsort")
 ```
 go run cmd/app/main.go pkg/unixsort/testdata/basicinput.txt > pkg/unixsort/testdata/basicexpected.txt
 ```
