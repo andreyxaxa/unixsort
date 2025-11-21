@@ -38,6 +38,7 @@ func Out(lines []string) {
 	}
 }
 
+// HumanSuffNums allows sorting by siffixes 'K/k', 'M/m', 'G/g', 'T/t'
 func HumanSuffNums(line string) (float64, bool) {
 	line = strings.TrimSpace(line)
 	if len(line) == 0 {

@@ -166,6 +166,7 @@ func (p *Params) Start() error {
 	return nil
 }
 
+// Sort takes unsorted 'lines' and returns a sorted 'lines'
 func (p *Params) Sort(lines []string) []string {
 	kf := func(line string) string {
 		if p.BlanksIgnore {
