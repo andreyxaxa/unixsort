@@ -35,3 +35,8 @@ go run cmd/app/main.go -n pkg/unixsort/testdata/numericinput.txt > pkg/unixsort/
 ```
 go run cmd/app/main.go -nruk 2 pkg/unixsort/testdata/nrukinput.txt > pkg/unixsort/testdata/nrukexpected.txt
 ```
+
+Можно выполнить `go build -o sort cmd/app/main.go` и запускать красивее:
+```
+sort -nruk 2 pkg/unixsort/testdata/nrukinput.txt > pkg/unixsort/testdata/nrukexpected.txt
+```
